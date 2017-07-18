@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright (c) 2006 - 2016, Stephan Pfab
+     SPDX-License-Identifier: BSD-2-Clause   -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>de.pfabulist</groupId>
+        <artifactId>pfabulist-parent</artifactId>
+        <version>1.1.1</version>
+        <!--<relativePath>../pfabulist-parent-v1/pom.xml</relativePath>-->
+    </parent>
+
+    <artifactId>scancode-toolkit-licenses</artifactId>
+    <version>2.0.1-0.1</version>
+
+    <name>scancode-toolkit-licenses</name>
+    <description>licences data from scancode-toolkit</description>
+    <url>http://www.github.com/openCage/scancode-toolkit</url>
+
+    <licenses>
+        <license>
+            <name>cc0-1.0</name>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+                <name>Chin-Yeung Li @chinyeungli</name>
+        </developer>
+        <developer>
+            <name>Jillian Daguil @jdaguil</name>
+        </developer>
+        <developer>
+            <name>Li Ha @linexb</name>
+        </developer>
+        <developer>
+            <name>nexB Inc. @nexB</name>
+        </developer>
+        <developer>
+            <name>Philippe Ombredanne @pombredanne</name>
+        </developer>
+        <developer>
+            <name>Sebastian Roth @ened</name>
+        </developer>
+        <developer>
+            <name>Steven Esser @majurg</name>
+        </developer>
+        <developer>
+            <name>Sebastian Schuberth @sschuberth</name>
+        </developer>
+        <developer>
+            <name>Rakesh Balusa @balusarakesh</name>
+        </developer>
+        <developer>
+            <name>Francois Granade @farialima</name>
+        </developer>
+        <developer>
+            <name>Savino Sguera @savinos</name>
+        </developer>
+        <developer>
+            <name>Stephan Pfab</name>
+            <email>openCage@gmail.com</email>
+            <organization>pfabulist</organization>
+            <organizationUrl>http://www.pfabulist.de</organizationUrl>
+        </developer>
+    </developers>
+
+
+    <scm>
+        <url>git://git@github.com:openCage/scancode-toolkit-licenses.git</url>
+        <connection>scm:git:git@github.com:openCage/scancode-toolkit-licenses</connection>
+        <developerConnection>scm:git:git@github.com:openCage/scancode-toolkit-licenses.git</developerConnection>
+    </scm>
+
+
+</project>
